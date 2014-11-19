@@ -1,0 +1,153 @@
+.highlight {
+  color: rgb(92, 172, 233);
+  font-weight: bold;
+}
+body {
+       font-family: 'Source Sans Pro', sans-serif;
+  background-color: rgb(238,245,251);
+}
+    h1 {
+  font-family: 'Source Sans Pro', sans-serif; 
+       margin: 0;
+    font-size: 30px;
+  font-weight: 300; 
+      display: inline;
+        color: #217bc0;
+}
+
+ h2 {
+  font-family: 'Source Sans Pro', sans-serif; 
+       margin: 0;
+    font-size: 20px;
+  font-weight: 300; 
+      display: inline;
+        color: #217bc0;
+}
+.dialog {
+           display: inline-block;
+  background-color: #EEF5FB;
+          position: absolute;
+            border: 2px solid rgb(92, 172, 233);
+     border-radius: 6px;
+             width: 66%;
+              left: 15%;
+}
+.dialogClose {
+         cursor: pointer;
+       position: absolute;
+          right: 0px;
+    border-left: 2px solid;
+  border-bottom: 2px solid;
+   border-color: #5CACE9;
+          color: #5CACE9;
+}
+.dialogleft {
+         width: 45%;
+         float: left;
+   margin-left: 2%;
+           top: 20px;
+}
+
+.dialogright {
+         width: 45%;
+         float: right;
+  margin-right: 2%;
+           top: 20px;
+}
+
+.submitButton {
+                    background-color: #79bbff;
+      -webkit-border-top-left-radius: 4px;
+          -moz-border-radius-topleft: 4px;
+              border-top-left-radius: 4px;
+     -webkit-border-top-right-radius: 4px;
+         -moz-border-radius-topright: 4px;
+             border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+      -moz-border-radius-bottomright: 4px;
+          border-bottom-right-radius: 4px;
+   -webkit-border-bottom-left-radius: 4px;
+       -moz-border-radius-bottomleft: 4px;
+           border-bottom-left-radius: 4px;
+                         text-indent: 0;
+                              border: 1px solid #84bbf3;
+                             display: inline-block;
+                               color: #ffffff;
+                         font-family: 'Source Sans Pro', sans-serif;
+                           font-size: 15px;
+                         font-weight: bold;
+                          font-style: normal;
+                              height: 40px;
+                         line-height: 40px;
+                               width: 200px;
+                     text-decoration: none;
+                          text-align: center;
+                         text-shadow: 1px 1px 0px #528ecc;
+}.submitButton:hover {
+                    background-color: #378de5;
+}.submitButton:active {
+                            position: relative;
+                                 top: 1px;
+}
+
+#resizable { 
+  height: 150px;
+        padding: 0.5em;
+      -webkit-border-top-left-radius: 4px;
+          -moz-border-radius-topleft: 4px;
+              border-top-left-radius: 4px;
+     -webkit-border-top-right-radius: 4px;
+	 -moz-border-radius-topright: 4px;
+             border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+      -moz-border-radius-bottomright: 4px;
+          border-bottom-right-radius: 4px;
+   -webkit-border-bottom-left-radius: 4px;
+       -moz-border-radius-bottomleft: 4px;
+           border-bottom-left-radius: 4px;
+}
+#resizable h3 {           text-align: center;
+                              margin: 0;
+}
+#resizable {             font-family: 'Source Sans Pro', sans-serif; }
+
+#search {
+
+}
+
+#search input[type="text"] {
+             background: url(search-white.png) no-repeat 10px 6px #fcfcfc;
+                 border: 1px solid #d1d1d1;
+                   font: bold 12px Arial,Helvetica,Sans-serif;
+                  color: #bebebe;
+                  width: 150px;
+                padding: 6px 15px 6px 35px;
+  -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+          border-radius: 20px;
+            text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+        -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+     -webkit-transition: all 0.7s ease 0s;
+        -moz-transition: all 0.7s ease 0s;
+          -o-transition: all 0.7s ease 0s;
+             transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+                  width: 120px;
+    }
+p { text-align: justify;}
+
+#navlist { list-style: none; }
+
+.verticalLine {
+   border-left: thick solid #666;
+}
+
+.commentor { 
+    font-style: italic;
+    color: #666;
+}
+

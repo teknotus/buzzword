@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Buzzword</title>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+
+<script type="text/javascript" src="data.js"></script>
+<script type="text/javascript" src="buzzword.js"></script>
+<link rel="stylesheet" type="text/css" href="buzzword.css">
+
+</head>
+  
+<body>
+  <div id="main">Modern websites should use a responsive web design. This is easier to achieve with vector graphics rather than RGB. 
+  </div>
+  <div id="dialog" class="dialog" style="display: none;">
+    <span class="dialogClose" onclick="dialogClose()">X</span>
+    <div class="dialogleft" class="left">
+      <h1 id="keyword">NTAP</h1>
+      <form method="get" action="/search" id="search">
+        <input name="q" type="text" size="40" placeholder="Change Language" />
+      </form>
+      <p id="definition">Blah blah blah</p>
+      <p>Something you say when you don't want to listen.
+      <div id="navcontainer" class="verticalLine">
+        <ul id="navlist">
+        <h2>What others are saying</h2>
+   
+        <p>Stakeholder means the people who are in charge of making the decision. Similiar to...</p>
+        <p class="commentor" >Posted by: Jehn Glynn</p>
+   
+        <p>Usually people refer to this when discussing</p>
+        <p class="commentor" >Posted by: Brittany Winston</p>
+ 
+  
+        <p>In our country policies like this are administred by the Join Fraction Committee</p>
+        <p class="commentor" >Posted by: Tyesha Snow</p>
+      </div>
+    </div>
+    <div class="dialogright">
+      <h2><strong>Add to this definition</strong></h2>
+      <p> Is this definition accurate?</p>
+      <p>Can you provide contect or information that might be helpful to others?"</p>
+      <textarea id="resizable" style="width: 95%"></textarea>
+      <a href="#" class="submitButton">Submit</a>
+      <p><a href="#">Wiki Link ></a></p>
+    </div>
+</body>
+</html>
