@@ -3,6 +3,9 @@ buzzword
 
 Debuzzword tool created at TechFest NW hackathon 2013
 
+# demo
+[http://teknotus.github.io/buzzword/](http://teknotus.github.io/buzzword/)
+
 # Contributers
 [https://github.com/teknotus](Daniel Patrick Johnson)  
 [https://github.com/jehnglynn](Jehn Glynn)  
